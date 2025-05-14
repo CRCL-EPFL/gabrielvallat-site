@@ -4,7 +4,7 @@ layout: default
 # Multi-agent reinforcement learning applied to construction 
 
 ## Training environment pages
-[Link to another page](./hexenv.markdown)
+[Hex environment suite](./hexenv.markdown)
 
 [3D environment suite](./3Denv.markdown)
 
