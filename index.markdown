@@ -3,7 +3,7 @@ layout: default
 ---
 # Multi-agent reinforcement learning applied to construction 
 The aim of this research is to train robots to build structures by simply imputing some specifications, such as an area to cover or obstacles to avoid.
-![Robots task](./_site/assets/images/intermediate2.png "The robots have to place blocks in a way that is covering the yellow area while avoiding the red one")
+![Robots task](./assets/images/intermediate2.png "The robots have to place blocks in a way that is covering the yellow area while avoiding the red one")
 
 To achieve this task, two main building blocks are designed in parallel: training environments and algorithms. 
 ## Training environment pages
