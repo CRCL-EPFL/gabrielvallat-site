@@ -21,7 +21,7 @@
 title: Gabriel Vallat's blog
 email: gabriel.vallat@epfl.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personnal website of Gabriel Vallat
+  Research website of Gabriel Vallat
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Fllask
