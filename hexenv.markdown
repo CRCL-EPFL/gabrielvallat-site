@@ -29,7 +29,8 @@ Some specific environments, based on the previous core principles, were created 
 * **Generic**: The aim is to span between two horizontal footings, leading to the construction of arches and bridge-like structures.
 * **Obstacles**: The aim is still to span between two horizontal footings, but this time some obstacles are present, leading to constructions that can be more complex and taller.
 ![Structure with obstacles](./assets/images/structure_obstacles.png "Example of a structure with obstacles, where the robots have to avoid the red blocks while covering the yellow area")
-
+* **Random targets**: In this environment, we removed the restriction of spanning between two footings, and the robots have to span two random targets, potentially anywhere in the grid.
+* **Timed actions**: This environment added a time component to the actions, where the robots have to wait for a certain time before placing a block. This was used to compare differnent simultaneous placement strategies.
 
 ### Credits
 * Lead: Gabriel Vallat
