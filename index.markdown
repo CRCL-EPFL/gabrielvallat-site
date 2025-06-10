@@ -11,7 +11,8 @@ To train robots to build structures, we developed two suites of environments. Ea
 
 ### 3D environment suite
 The idea behind these environments is to represent the world as a typed graph, where nodes are blocks, forces, contact points and objectives, and edges are relations between them.
-![FTGraph](./assets/images/FTGraph.png "The FTGraph is a graph representation of the world, where nodes are blocks, forces and contact points, and edges are relations between them")
+![FTGraph](./assets/images/FTgraph.jpg "The FTGraph is a graph representation of the world, where nodes are blocks, forces and contact points, and edges are relations between them")
+
 
 
 ## Algorithms
