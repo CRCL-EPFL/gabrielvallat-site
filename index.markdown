@@ -9,6 +9,9 @@ To achieve this task, two main building blocks are designed in parallel: trainin
 ## Training environment pages
 To train robots to build structures, we developed two suites of environments. Each of these environments can be modeled as Markov decision processes (MDP), and out of the box RL algorithms can be used to solve them. The first suite, using a discrete action space and a 2D grid representation, is designed for simpler tasks, while the second suite, using a continuous action space and a 3D representation, is aimed at more realistic scenarios. The 2D environmentst are descibed in more detail in the [Hex environment suite](./hexenv.markdown), while the 3D environments, still under development, are described here.
 
+### 3D environment suite
+The idea behind these environmnents is to represent the world as a typed graph, where nodes are blocks, forces and contact points, and edges are relations between them. 
+![FTGraph](./assets/images/FTGraph.png "The FTGraph is a graph representation of the world, where nodes are blocks, forces and contact points, and edges are relations between them")
 ## Algorithms
 
 The aim of the algorithmic part of this research is to find how complex structures can be represented and simplified to get tractable solutions, while maximizing the variety of shapes created. To provide solid baselines, RL algorithms such as Soft Actor-Critic and AlphaZero, and search algorithms such as A* are used. 
