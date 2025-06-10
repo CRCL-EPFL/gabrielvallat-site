@@ -7,7 +7,8 @@ Different environments (compatible with [gymnasium](https://gymnasium.farama.org
 
 ## State
 The base state comprise the current structure and the robots currently holding it. This information is encoded in a multi-channel image. 
-<insert image>
+
+[![State example](./assets/images/OI.pdf "Example of a state, with the current structure and the robots holding it")]
 
 It can be extended with information such as the blocks that are planned but not placed yet and their time of arrival.
 ## Action
